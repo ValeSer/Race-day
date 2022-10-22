@@ -9,3 +9,9 @@ let raceNumber = Math.floor(Math.random() * 1000);
 
 let registeredEarly = true;
 let runnersAge = 18;
+
+// Create a control flow statement that checks whether the runner is an adult AND registered early.
+// Add 1000 to their raceNumber if this is true
+if ( runnersAge >= 18 && registeredEarly) {
+    raceNumber += 1000;
+  }
