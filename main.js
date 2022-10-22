@@ -8,3 +8,4 @@ Finally, to ensure we only have whole numbers from 0 to 999 we can round down us
 let raceNumber = Math.floor(Math.random() * 1000);
 
 let registeredEarly = true;
+let runnersAge = 18;
