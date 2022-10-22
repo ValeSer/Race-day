@@ -6,3 +6,5 @@ In order to make this set of numbers range from 0 (inclusive) to 1000 (exclusive
 Finally, to ensure we only have whole numbers from 0 to 999 we can round down using Math.floor().
 */
 let raceNumber = Math.floor(Math.random() * 1000);
+
+let registeredEarly = true;
