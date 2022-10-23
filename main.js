@@ -17,5 +17,7 @@ if ( runnersAge >= 18 && registeredEarly) {
   }
 
 if ( runnersAge >= 18 && registeredEarly) {
-console.log(`The number ${raceNumber} will race at 9:30 am.`)
+console.log(`The number ${raceNumber} will race at 9:30 am.`);
+} else if (runnersAge >= 18 && !registeredEarly) {
+console.log(`The number ${raceNumber} will race at 11 am.`);
 }
