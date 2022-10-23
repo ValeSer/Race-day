@@ -15,3 +15,7 @@ let runnersAge = 18;
 if ( runnersAge >= 18 && registeredEarly) {
     raceNumber += 1000;
   }
+
+if ( runnersAge >= 18 && registeredEarly) {
+console.log(`The number ${raceNumber} will race at 9:30 am.`)
+}
